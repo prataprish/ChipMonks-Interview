@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ChipMonks-Interview';
+  api = 'https://reqres.in/api/users';
 
   constructor (http: HttpClient) {}
 }
